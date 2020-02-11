@@ -21,7 +21,7 @@ res_rent <- furrr::future_map(poa_dt[['postcode']], ~ {
   }
   
   # if POA exists then proceed to extract listings
-  # 1:10 means extract only the first 100 pages
+  # 1:10 means extract only the first 10 pages
   for (i in 1:10) {
     Rcrawler(
       Website = paste0("https://www.auhouseprices.com/rent/list/VIC/", .x, "/1/", i),
