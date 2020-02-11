@@ -9,7 +9,7 @@
 
 This repo contains codes that scrape house prices from
 <https://www.auhouseprices.com>. Please use the website responsibly by
-setting the number of crawlers low and around delay between each call.
+setting the number of crawlers low and allow delay between each call.
 
 **Dependencies**
 
