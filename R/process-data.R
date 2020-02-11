@@ -31,4 +31,5 @@ process_onthehouse_data <- function(in_dir, out_dir = NULL, n_cores = 1L) {
   return(combined_data)
 }
 
+# save to the folder called 'extracted-data' at the root of your project folder
 process_onthehouse_data(in_dir = "onthehouse-2", out_dir = "extracted-data", n_cores = 10)
